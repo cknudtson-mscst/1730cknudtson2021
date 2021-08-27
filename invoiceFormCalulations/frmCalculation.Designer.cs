@@ -33,7 +33,7 @@ namespace invoiceFormCalulations
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.btnSubtotal = new System.Windows.Forms.TextBox();
+            this.txtSubtotal = new System.Windows.Forms.TextBox();
             this.txtDiscountPercent = new System.Windows.Forms.TextBox();
             this.txtDiscountAmount = new System.Windows.Forms.TextBox();
             this.txtTotal = new System.Windows.Forms.TextBox();
@@ -81,18 +81,17 @@ namespace invoiceFormCalulations
             this.label4.Text = "Total:";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // btnSubtotal
+            // txtSubtotal
             // 
-            this.btnSubtotal.Location = new System.Drawing.Point(171, 45);
-            this.btnSubtotal.Name = "btnSubtotal";
-            this.btnSubtotal.Size = new System.Drawing.Size(184, 26);
-            this.btnSubtotal.TabIndex = 1;
+            this.txtSubtotal.Location = new System.Drawing.Point(171, 45);
+            this.txtSubtotal.Name = "txtSubtotal";
+            this.txtSubtotal.Size = new System.Drawing.Size(184, 26);
+            this.txtSubtotal.TabIndex = 1;
             // 
             // txtDiscountPercent
             // 
             this.txtDiscountPercent.Location = new System.Drawing.Point(171, 77);
             this.txtDiscountPercent.Name = "txtDiscountPercent";
-            this.txtDiscountPercent.ReadOnly = true;
             this.txtDiscountPercent.Size = new System.Drawing.Size(184, 26);
             this.txtDiscountPercent.TabIndex = 5;
             this.txtDiscountPercent.TabStop = false;
@@ -123,6 +122,7 @@ namespace invoiceFormCalulations
             this.btnCalculate.TabIndex = 2;
             this.btnCalculate.Text = "&Calculate";
             this.btnCalculate.UseVisualStyleBackColor = true;
+            this.btnCalculate.Click += new System.EventHandler(this.btnCalculate_Click);
             // 
             // btnExit
             // 
@@ -133,6 +133,7 @@ namespace invoiceFormCalulations
             this.btnExit.TabIndex = 3;
             this.btnExit.Text = "E&xit";
             this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // frmCalculation
             // 
@@ -146,7 +147,7 @@ namespace invoiceFormCalulations
             this.Controls.Add(this.txtTotal);
             this.Controls.Add(this.txtDiscountAmount);
             this.Controls.Add(this.txtDiscountPercent);
-            this.Controls.Add(this.btnSubtotal);
+            this.Controls.Add(this.txtSubtotal);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -165,7 +166,7 @@ namespace invoiceFormCalulations
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox btnSubtotal;
+        private System.Windows.Forms.TextBox txtSubtotal;
         private System.Windows.Forms.TextBox txtDiscountPercent;
         private System.Windows.Forms.TextBox txtDiscountAmount;
         private System.Windows.Forms.TextBox txtTotal;
