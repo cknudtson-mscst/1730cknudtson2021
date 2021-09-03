@@ -71,6 +71,8 @@ namespace FoodTruck
             txtTax.Text = "";
             txtTotal.Text = "";
 
+            //Focus on CottonCandy
+
             txtCottonCandy.Focus();
         }
     }
