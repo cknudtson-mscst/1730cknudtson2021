@@ -298,7 +298,7 @@ namespace FoodTruck
             this.txtTotal.TabIndex = 26;
             this.txtTotal.TabStop = false;
             // 
-            // Form1
+            // FoodTruck
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -330,7 +330,7 @@ namespace FoodTruck
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtCottonCandy);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
+            this.Name = "FoodTruck";
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
