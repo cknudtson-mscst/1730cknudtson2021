@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "frmCurrencyConverter", "frm
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AverageScore", "AverageScore\AverageScore.csproj", "{020C8CB3-20C3-46CF-8958-AD6C85C2B60E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyEx1F2", "CurrencyEx1F2\CurrencyEx1F2.csproj", "{ADF35DD3-9B10-421A-86A5-E4027BC10201}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{020C8CB3-20C3-46CF-8958-AD6C85C2B60E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{020C8CB3-20C3-46CF-8958-AD6C85C2B60E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{020C8CB3-20C3-46CF-8958-AD6C85C2B60E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADF35DD3-9B10-421A-86A5-E4027BC10201}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADF35DD3-9B10-421A-86A5-E4027BC10201}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADF35DD3-9B10-421A-86A5-E4027BC10201}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADF35DD3-9B10-421A-86A5-E4027BC10201}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
