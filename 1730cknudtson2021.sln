@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AverageScore", "AverageScor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyEx1F2", "CurrencyEx1F2\CurrencyEx1F2.csproj", "{ADF35DD3-9B10-421A-86A5-E4027BC10201}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VariableCurrency", "VariableCurrency\VariableCurrency.csproj", "{3EF48075-826D-4FB8-8FB3-33C8B68678EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{ADF35DD3-9B10-421A-86A5-E4027BC10201}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADF35DD3-9B10-421A-86A5-E4027BC10201}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADF35DD3-9B10-421A-86A5-E4027BC10201}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EF48075-826D-4FB8-8FB3-33C8B68678EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EF48075-826D-4FB8-8FB3-33C8B68678EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EF48075-826D-4FB8-8FB3-33C8B68678EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EF48075-826D-4FB8-8FB3-33C8B68678EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
