@@ -10,22 +10,27 @@ using System.Windows.Forms;
 
 namespace Ex2E1___Loops
 {
-    public partial class Form1 : Form
+    public partial class LogicalOperations : Form
     {
-        public Form1()
+        public LogicalOperations()
         {
             InitializeComponent();
         }
 
-        private void btnCalculate_Click(object sender, EventArgs e)
+        public static bool q01(int v)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void btnCalculate_Click(object sender, EventArgs e)
         {
             //01
-            decimal subtotal = Convert.ToDecimal(txt01Input.Text);
-            txt01Result.Text = (subtotal >= 250 && subtotal < 500).ToString();
+            int subtotal = Convert.ToInt32(txt01Input.Text);
+            txt01Result.Text = (LogicalOperations.q01(subtotal)).ToString();
 
             //02
             int timeInService = Convert.ToInt32(txt02Input.Text);
-            txt02Result.Text = (timeInService <= 4 || timeInService >= 12).ToString();
+            txt02Result.Text = (LogicalOperations.q02(timeInService)).ToString();
 
             //03 and beyond variables
             //03 - 06 uses these exact variables
@@ -34,7 +39,7 @@ namespace Ex2E1___Loops
             int years = Convert.ToInt32(txt03Input3.Text);
 
             //03
-            txt03Result.Text = (isValid == true && counter++ < years).ToString();
+            txt03Result.Text = (LogicalOperations.q03(isValid, counter, years)).ToString();
             txt03Effect.Text = counter.ToString();
 
             //04
@@ -54,20 +59,20 @@ namespace Ex2E1___Loops
             DateTime startDate = Convert.ToDateTime(txt07Input1.Text);
             DateTime expirationtDate = Convert.ToDateTime(txt07Input2.Text);
             DateTime date = Convert.ToDateTime(txt07Input3.Text);
-            txt07Result.Text = (date > startDate && date < expirationtDate || isValid == true).ToString();
+            txt07Result.Text = (LogicalOperations.q07(startDate, expirationtDate, date, isValid)).ToString();
 
             //08
-            decimal thisYTD = Convert.ToDecimal(txt08Input1.Text);
-            decimal lastYTD = Convert.ToDecimal(txt08Input2.Text);
+            int thisYTD = Convert.ToInt32(txt08Input1.Text);
+            int lastYTD = Convert.ToInt32(txt08Input2.Text);
             string empType = txt08Input3.Text;
             int startYear = Convert.ToInt32(txt08Input4.Text);
             int currentYear = Convert.ToInt32(txt08Input5.Text);
-            txt08Result.Text = ((thisYTD > lastYTD || empType == "Part Time") && startYear < currentYear).ToString();
+            txt08Result.Text = (LogicalOperations.q08(thisYTD, lastYTD, empType, startYear, currentYear)).ToString();
 
             //09
             int Counter = Convert.ToInt32(txt09Input1.Text);
             int Years = Convert.ToInt32(txt09Input2.Text);
-            txt09Result.Text = (!(Counter++ >= Years)).ToString();
+            txt09Result.Text = (LogicalOperations.q09(Counter, Years)).ToString();
             txt09Effect.Text = Counter.ToString();
 
             //10
@@ -78,9 +83,78 @@ namespace Ex2E1___Loops
             txt10Result.Text = (a + b * c - d).ToString();
         }
 
-        private void btnExit_Click(object sender, EventArgs e)
+        private static object q07(DateTime startDate, DateTime expirationtDate, DateTime date, bool isValid)
         {
-            this.Close();
+            throw new NotImplementedException();
+        }
+
+        private static object q09(int counter, int years)
+        {
+            throw new NotImplementedException();
+        }
+
+        private static object q08(int thisYTD, int lastYTD, string empType, int startYear, int currentYear)
+        {
+            throw new NotImplementedException();
+        }
+
+        private static object Q07(DateTime startDate, DateTime expirationtDate, DateTime date, bool isValid)
+        {
+            throw new NotImplementedException();
+        }
+
+        private static object q03(bool isValid, int counter, int years)
+        {
+            throw new NotImplementedException();
+        }
+
+        private static object q02(int timeInService)
+        {
+            throw new NotImplementedException();
+        }
+
+        public static bool q06(bool v1, int v2, int v3)
+        {
+            throw new NotImplementedException();
+        }
+
+        public static bool Q07(DateTime startDate,
+        DateTime expirationDate, DateTime date, bool isValid);
+        }
+
+        public static bool Q05(bool v1, int v2, int v3)
+        {
+            throw new NotImplementedException();
+        }
+
+        public static bool q04(bool v1, int v2, int v3)
+        {
+            throw new NotImplementedException();
+        }
+
+        public static bool q03(bool v1, int v2, int v3)
+        {
+            throw new NotImplementedException();
+        }
+
+        public static bool q02(int v)
+        {
+            throw new NotImplementedException();
+        }
+
+        //private void btnExit_Click(object sender, EventArgs e)
+       // {
+           //this.Close();
+       // }
+
+        public static bool q08(int v1, int v2, string v3, int v4, int v5)
+        {
+            throw new NotImplementedException();
+        }
+
+        public static bool q09(int v1, int v2)
+        {
+            throw new NotImplementedException();
         }
     }
 }

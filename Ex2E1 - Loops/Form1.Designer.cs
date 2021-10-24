@@ -1,7 +1,7 @@
 ﻿
 namespace Ex2E1___Loops
 {
-    partial class Form1
+    partial class LogicalOperations
     {
         /// <summary>
         /// Required designer variable.
@@ -475,7 +475,7 @@ namespace Ex2E1___Loops
             this.txt09Effect.TabIndex = 47;
             this.txt09Effect.TabStop = false;
             // 
-            // Form1
+            // LogicalOperations
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -528,7 +528,7 @@ namespace Ex2E1___Loops
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txt01Input);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
+            this.Name = "LogicalOperations";
             this.Text = "Ex2E1 - True/False and Side Effects";
             this.ResumeLayout(false);
             this.PerformLayout();
